@@ -111,7 +111,7 @@ footer {
 .butterfly {
     position: absolute;
     width: 60px;
-    top: 100vh;
+    top: 90vh;
     left: 100vw;
     filter: brightness(8%);
     animation: fly 15s infinite;
