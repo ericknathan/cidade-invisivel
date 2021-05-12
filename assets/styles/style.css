@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -11,23 +11,31 @@ body {
     width: 100vw;
     height: 100vh;
     background: url('/assets/images/cidade-invisivel.png');
+    background-color: #00000055;
+    background-blend-mode: darken;
     background-size: cover;
     background-position: right top;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 header {
     background-color: #000000AA;
-    height: 70px;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
 }
 
+header a {
+    display: flex;
+}
+
 .logo img {
-    width: 120px;
+    /* width: 120px; */
+    height: 4vh;
 }
 
 .links ul {
@@ -40,22 +48,80 @@ header {
 .links a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     user-select: none;
-    transition: all .8s;
+    transition: all .6s;
+    font-weight: 300;
 }
+
 .links a:hover {
-    color: red; /* #dbdbdb; */
+    color: #d81f26; /* #dbdbdb; */
 }
 
 .links a.active {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 main {
+    padding: 25vh 10vw;
     flex-grow: 1;
+    color: white;
+}
+
+main h2 {
+    font-size: 25px;
+}
+
+main h1 {
+    font-size: 55px;
+}
+
+main p {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 650px;
+}
+
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    width: 190px;
+    height: 50px;
+    background-color: #d81f26;
+    margin-top: 20px;
+    border-radius: 100px;
+    transition: all .4s;
+    font-weight: 500;
+}
+
+main a:hover {
+    background-color: #e23137;
 }
 
 footer {
-    flex-grow: 1;
+    text-align: center;
+    height: 40px;
+    color: white;
+}
+
+.butterfly {
+    position: absolute;
+    width: 60px;
+    top: 100vh;
+    left: 100vw;
+    filter: brightness(8%);
+    animation: fly 15s infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-110vw, -110vh);
+    }
 }
