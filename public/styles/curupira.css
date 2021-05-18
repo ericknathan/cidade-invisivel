@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/curupira.jpg');
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 22vh 10vw;
+    flex-grow: 1;
+    color: white;
+}
+
+h3, p {
+    color: white;
+}
+
+h1 {
+    font-size: 85px;
+    color: #FFFFFF00;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+h2 {
+    color: red;
+    transform: rotate(270deg);
+}
+
+.description__area {
+    display: flex;
+}
