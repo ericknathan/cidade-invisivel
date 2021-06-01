@@ -16,39 +16,6 @@ header {
     padding: 0 10vw;
 }
 
-header a {
-    display: flex;
-}
-
-.logo img {
-    /* width: 120px; */
-    height: 4vh;
-}
-
-.links ul {
-    display: flex;
-    gap: 20px;
-    color: white;
-    list-style-type: none;
-}
-
-.links a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    user-select: none;
-    transition: all .6s;
-    font-weight: 400;
-}
-
-.links a:hover {
-    color: #d81f26; /* #dbdbdb; */
-}
-
-.links a.active {
-    font-weight: 600;
-}
-
 footer {
     text-align: center;
     height: 40px;

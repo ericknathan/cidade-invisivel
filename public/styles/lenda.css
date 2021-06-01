@@ -1,0 +1,113 @@
+body.iara__lenda {
+    background: url('../images/iara.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body.curupira__lenda {
+    background: url('../images/curupira.png');
+    background-size: cover;
+}
+
+body.cuca__lenda {
+    background: url('../images/cuca.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body.saci__lenda {
+    background: url('../images/saci.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body.boto__lenda {
+    background: url('../images/boto.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body.tutu__lenda {
+    background: url('../images/tutu.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body.corposeco__lenda {
+    background: url('../images/corpo-seco.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,.2);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 13vh 10vw;
+    flex-grow: 1;
+    color: white;
+}
+
+h3, p {
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    box-shadow: #FFFFFF;
+}
+
+h2 {
+    color: red;
+    transform: rotate(270deg);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.description__area {
+    display: flex;
+    height: 30vh;
+    width: 31vw;
+    align-items: center;
+}
+
+.description__area p {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.info__area {
+    display: flex;
+    width: 37vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__area .info p, .info__area .info h3 {
+    font-style: italic;
+}
+
+.info__area .info h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.linha {
+    height: 50px;
+    border-left: 3px solid red;
+}
